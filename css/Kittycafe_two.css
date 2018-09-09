@@ -1,0 +1,285 @@
+/*
+* @Author: admin
+* @Date:   2018-06-25 00:15:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-05 20:16:56
+*/
+
+*{
+	list-style: none;
+}
+body{
+	font-family: "futura-pt", Futura, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.container{
+	padding: 0px 10px;
+}
+.kittycafe_two_main .container .cafemain_header{
+	margin-top: 8px;
+}
+.kittycafe_two_main .container .cafemain_header img:nth-of-type(1){
+	width: 30%;
+}
+.kittycafe_two_main .cafemain_header img:nth-of-type(2){
+	width: 100%;
+	max-width: 100%;
+}
+.kittycafe_two_main .cafemain_truck{
+	width: 100%;
+	margin-top: 110px;
+	margin-bottom: 30px;
+}
+.kittycafe_two_main .cafemain_truck ul{
+	width: 100%;
+	color: #27C0C9;
+	font-size: 15px;
+	margin: 20px auto;
+	padding-left: 0px;
+}
+.kittycafe_two_main .cafemain_truck ul li{
+	display: inline-block;
+	padding: 3px 20px;
+	word-spacing: 1px;
+}
+.kittycafe_two_main .cafemain_truck ul li:nth-of-type(1){
+	border-right: 2px solid #fc98bd;
+}
+.kittycafe_two_main .cafemain_truck ul li:nth-of-type(2){
+	border-right: 2px solid #fc98bd;
+}
+.kittycafe_two_main .cafemain_truck span{
+	color: #fb8abd;
+	word-spacing: 1px;
+	font-size: 33px;
+	font-weight: 800;
+}
+.kittycafe_two_main .cafemain_truck p{
+	word-spacing: 1px;
+	font-size: 20px;
+	font-weight: 800;
+	padding: 20px 320px 30px;
+	color: black;
+}
+.kittycafe_two_main .cafemain_truck img:nth-of-type(2){
+	width: 15%;
+	max-width: 100%;
+	padding-top: 45px;
+}
+.kittycafe_two_main .cafemain_truck h1{
+	font-weight: 800;
+	font-size: 33px;
+	margin-top: 8px;
+	padding-bottom: 20px;
+	color: black;
+}
+.kittycafe_two_main .cafemain_menu{
+	width: 100%;
+	padding: 10px 10px;
+	color: black;
+	border: 3px solid #fb8abd;
+	overflow: auto;
+}
+.kittycafe_two_main .cafemain_menu .left_menu{
+	/* float: left;
+	width: 49.2%; */
+	width: 100%;
+	background: #fb8abd;
+	padding: 15px 12px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.kittycafe_two_main .cafemain_menu .right_menu{
+	/* float: right;
+	width: 49.2%; */
+	width: 100%;
+	background: #fb8abd;
+	padding: 15px 12px;
+	box-sizing: border-box;
+}
+.kittycafe_two_main .cafemain_menu h2{
+	margin: 0px 0px;
+	font-size: 22px;
+	font-weight: 800;
+}
+.kittycafe_two_main .cafemain_menu ul{
+	padding: 15px 0px 10px;
+	font-size: 21px;
+	word-spacing: 1px;
+}
+.kittycafe_two_main .cafemain_menu ul li{
+	/* width: 48%; */
+	width: 100%;
+}
+
+.kittycafe_two_main .cafemain_stops{
+	width: 100%;
+	padding: 40px 0px 10px;
+}
+.kittycafe_two_main .cafemain_stops>img:nth-of-type(1){
+	margin-bottom: 37px;
+}
+.kittycafe_two_main .cafemain_stops .thumbnail{
+	border: none;
+}
+.kittycafe_two_main .cafemain_stops>img:nth-of-type(2){
+	width: 15%;
+	margin-top: 20px;
+}
+.kittycafe_two_main .cafemain_stops h1{
+	font-weight: 800;
+	font-size: 33px;
+	margin-top: 8px;
+	padding-bottom: 20px;
+	color: black;
+}
+.kittycafe_two_main .cafemain_stops p{
+	word-spacing: 1px;
+	font-size: 20px;
+	font-weight: 800;
+	padding: 0px 320px 30px;
+	color: black;
+}
+.kittycafe_two_main .cafemain_stops>img:nth-of-type(3){
+	width: 38%;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.kittycafe_two_main .cafemain_months{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.kittycafe_two_main .cafemain_months .months_one{
+	border: 3px solid #fb8abd;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+}
+.kittycafe_two_main .cafemain_months .months_one h2{
+	margin: 0px 0px 27px;
+	font-size: 23px;
+}
+.kittycafe_two_main .cafemain_months .months_one ul{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+.kittycafe_two_main .cafemain_months .months_one ul li{
+	width: 100%;
+	font-size: 20px;
+	padding: 16px 10px 0px 10px;
+	background: #fb8abd;
+	font-weight: 600;
+	word-spacing: 1px;
+	margin-bottom: 10px;
+}
+.kittycafe_two_main .cafemain_months .months_one ul li:nth-of-type(2){
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 10px 10px 0px 10px;
+	box-sizing: border-box;
+}
+.kittycafe_two_main .cafemain_months .months_one ul p{
+	margin: auto;
+	width: 50%;
+	font-size: 24px;
+	background: #22c0c9;
+	font-weight: 500;
+	color: white;
+}
+.kittycafe_two_main .cafemain_months .months_two{
+	border: 3px solid #fb8abd;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+}
+.kittycafe_two_main .cafemain_months .months_two h2{
+	margin: 0px 0px 27px;
+	font-size: 23px;
+}
+.kittycafe_two_main .cafemain_months .months_two ul{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+.kittycafe_two_main .cafemain_months .months_two ul li{
+	width: 100%;
+	font-size: 20px;
+	padding: 16px 10px 0px 10px;
+	background: #fb8abd;
+	font-weight: 600;
+	word-spacing: 1px;
+	margin-bottom: 10px;
+}
+.kittycafe_two_main .cafemain_months .months_two ul li:nth-of-type(2){
+	padding: 10px 10px 0px 10px;
+	margin-bottom: 0px;
+}
+.kittycafe_two_main .cafemain_business .thumbnail{
+	border: none;
+	padding: 0px 0px;
+}
+.kittycafe_two_main .cafemain_bottom{
+	overflow: hidden;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fca7cd;
+	margin-bottom: 60px;
+}
+.kittycafe_two_main .cafemain_bottom>img{
+	width: 100%;
+	max-width: 100%;
+}
+.kittycafe_two_main .cafemain_bottom .bottom_main{	
+	background: #fee3ef;
+	width: 33.3333333%;
+	float: left;
+	height: 98px;
+	overflow: hidden;
+}
+.kittycafe_two_main .cafemain_bottom .bottom_main>img{
+	margin: 20px 0px;
+}
+.kittycafe_two_main .cafemain_bottom .bottom_main .bottom_imgbox{
+	display: inline-block;
+	margin-top: 30px;
+}
+.kittycafe_two_main .cafemain_bottom .bottom_main .bottom_imgbox img:nth-of-type(1){
+	margin: auto 10px;
+}
+.kittycafe_two_main .cafemain_bottom .bottom_main .bottom_imgbox img:nth-of-type(2){
+	margin-right: 10px;
+}
+
+
+@media (max-width: 768px){
+	.kittycafe_two_main .cafemain_truck p{
+		padding: 20px 0px 30px 0px;
+	}
+	.kittycafe_two_main .cafemain_stops p{
+		padding: 20px 0px 30px 0px;
+	}
+	.kittycafe_two_main .cafemain_stops>img:nth-of-type(3){
+		width: 90%;
+	}
+	.kittycafe_two_main .cafemain_months .months_one ul p{
+		width: 100%;
+	}
+	.kittycafe_two_main .cafemain_bottom .bottom_main{	
+		width: 100%;
+	}
+}
+
+
+@media (min-width: 768px){
+	.container {
+	    width: 100%;
+	}
+}
+@media (min-width: 850px){
+	.container {
+	   width: 100%;
+	}
+}
+@media (min-width: 1200px){
+	.container {
+	    width: 1192px;
+	}
+}

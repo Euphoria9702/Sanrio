@@ -1,0 +1,87 @@
+/*
+* @Author: admin
+* @Date:   2018-06-29 13:55:13
+* @Last Modified by:   admin
+* @Last Modified time: 2018-07-03 14:55:38
+*/
+.index_contain{
+	padding-bottom: 50px;
+}
+.shop_kitty{
+	float: right;
+	width: 300px;
+	padding-top: 10px;
+}
+.shop_kitty>img{
+	width: 100%;
+	display: block;
+	margin-top: 30px;
+}
+.shop_kitty span{
+	display: inline-block;
+	padding-left: 40px;
+}
+.shop_kitty span>img{
+	width: 25px;
+}
+/* -------juneoffer------ */
+
+.shop_makeupdrop{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.shop_makeupdrop img{
+	width: 100%;
+}
+.shop_makeupdrop h4{
+	font-size: 21px;
+	color: #eb8497;
+}
+.shop_makeupdrop p{
+	font-size: 19px;
+	color: #515151;
+	font-weight: 400;
+	font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.shop_makeupdrop a{
+	font-size: 20px;
+	color: #00c1de;
+	display: inline-block;
+	position: relative;
+}
+.shop_makeupdrop a>div{
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-left: 6px solid #00c1de;
+	position: absolute;
+    top: 8px;
+    right: -18px;
+}
+/* -----------makeupdrop------- */
+.thumbnail .caption2 h3{
+	color: #2e7f66;
+}
+.index_kittycon{
+	padding-bottom: 20px;
+}
+@media(max-width: 767px){
+	.shop_kitty{
+		position: relative;
+		right: 50%;
+		margin-right: -165px;
+	}
+	.shop_kitty span{
+		display: none;
+	}
+}
+
+.index_contain .carousel-indicators{
+	position: absolute;
+	top: 0;
+	padding-top: 56%;
+	margin: 0;
+}

@@ -1,0 +1,264 @@
+/*
+* @Author: admin
+* @Date:   2018-06-29 15:18:11
+* @Last Modified by:   Mo
+* @Last Modified time: 2018-07-08 11:09:36
+*/
+.logo_sanrio{
+	width: 100%;
+}
+.sweet_home{
+	padding-bottom: 20px;
+}
+.sweet_home a{
+	color: #005aa9;
+	padding: 0 5px;
+}
+.sweet_img{
+	width: 100%;
+}
+.sweet_img img{
+	width: 100%;
+}
+/* -----sweethome------- */
+.sweet_main{
+	width: 100%;
+}
+.sweet_main_contain{
+	position: relative;
+}
+.sweet_main_contain img{
+	width: 100%;
+}
+.sweet_main_contain .agg_txt a:nth-of-type(1){
+	font-size: 18px;
+	font-weight: 800;
+	font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    margin-bottom: 8px;
+    display: block;
+}
+.sweet_main_contain .agg_txt a:hover{
+	text-decoration: underline;
+}
+.sweet_main_contain .agg_txt a:nth-of-type(2){
+	font-size: 16px;
+	font-weight: 700;
+	font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.sweet_main_contain .agg_txt p{
+	font-size: 14px;
+}
+/* ---------main agg--------- */
+
+.sweet_kawayi{
+	width: 100%;
+}
+.sweet_kawayi .shownow_container{
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.sweet_kawayi img{
+	width: 100%;
+}
+.kawayi_cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+.cell2{
+	width: 26%;
+	padding-left: 30px;
+}
+.sweet_kawayi .iconfont{
+	font-size: 22px;
+}
+.sweet_kawayi li a{
+	padding: 0 5px;
+}
+.cell2 p{
+	font-size: 16px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    margin-bottom: 0;
+}
+.cell2>a{
+	color: #005aa9;
+	display: block;
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.cell2>a:hover{
+	text-decoration: underline;
+}
+.cell2>a i{
+	position: relative;
+    top: 3px;
+    font-size: 13px;
+} 
+
+/* ----------sweet_kawayi------ */
+.sweet_more{
+	width: 100%;
+}
+.sweet_col img{
+	width: 100%;
+}
+.sweet_more_txt a{
+	font-size: 18px;
+	color: #515151;
+	font-weight: 800;
+	font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    display: block;
+    margin: 10px 0;
+}
+.sweet_more_txt p{
+	color: #515151;
+}
+.sweet_more_txt a:nth-of-type(2){
+	color: #005aa9;
+	display: block;
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.sweet_more_txt a i{
+	position: relative;
+    top: 3px;
+    font-size: 13px;
+}
+.sweet_col{
+	height: 0;
+	padding-bottom: 48%;
+}
+.sweet_load{
+	text-align: center;
+	margin: 30px 0;
+}
+.sweet_load a{
+	border: 2px solid #0058a5;
+	padding: 4px 40px;
+	font-size: 20px;
+	color: #0058a5;
+	letter-spacing: 2px;
+	font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    position: relative;
+}
+.sweet_load a:hover{
+	color: #007cc4;
+	border: 2px solid #007cc4;
+}
+.sweet_load img{
+	position: absolute;
+    right: -30px;
+    top: -38px;
+}
+@media(max-width: 767px){
+	.sweet_main_contain{
+		margin: 0 80px;
+	}
+	.sweet_main_contain .agg_main{
+	    background: #fff;
+	    width: 100%;
+	}
+	.sweet_main_contain .agg_txt{
+		position: relative;
+		margin: 30px 30px 0 0;
+		float: left;
+		color: #515151;
+	}
+	.sweet_main_contain .agg_txt a{
+		color: #515151;
+	}
+	.sweet_main_contain .agg_txt a:nth-of-type(2){
+		color: #005aa9;
+	}
+	/* --------agg---------- */
+	.kawayi_cell{
+		display: block;
+		width: 100%;
+		margin: 20px 0;
+	}
+	/* --cell-- */
+	.sweet_col{
+		padding: 20% 20%;
+		padding-bottom: 100%;
+	}
+}
+@media(min-width: 768px){
+	.sweet_main_contain .agg_main{
+		position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    width: 310px;
+	    background: rgba(93,93,93,0.8);
+	}
+	.sweet_main_contain .agg_txt{
+		position: absolute;
+	    right: 0;
+	    left: 0;
+	    bottom: 0;
+	    /* background: pink; */
+	    margin: 30px;
+	    color: #fff;
+	}
+	.sweet_main_contain .agg_txt a{
+		color: #fff;
+	}
+	/* ---------agg-------- */
+	.cell2{
+		width: 40%;
+	}
+	/* --cell-- */
+	.sweet_col{
+		padding-bottom: 65%;
+	}
+}
+@media (min-width: 960px){
+	.cell2{
+		width: 30%;
+	}
+	/* --cell-- */
+	.sweet_col{
+		padding-bottom: 48%;
+	}
+	/* -----col---- */
+	.kawayi_cell{
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+@media (min-width: 1192px){
+	.cell2{
+		width: 26%;
+	}
+	/* --cell-- */
+}

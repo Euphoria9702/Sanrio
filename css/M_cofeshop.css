@@ -1,0 +1,166 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-29 21:04:17
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-05 20:23:24
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-weight: 400;
+}
+html{
+	font-size: 1px;
+	color: #515151;
+}
+body{
+	font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+a{
+	color: #27C0C9;
+}
+.logo{
+	padding:30px 0 0 0;
+}
+.logo img{
+	width: 100%;
+}
+.carousel-indicators{
+	bottom: -50px;
+}
+.carousel-indicators .flag{
+	border-color: #27C0C9;
+	margin: 0 5px;
+}
+.carousel-indicators li.active{
+	background-color: #27C0C9;
+	width: 10px;
+	height: 10px;
+}
+.content{
+	margin-top:140px;
+}
+.content span{
+	padding: 5px 10px;
+}
+.content span:nth-child(2){
+	border-right: 2px solid #FB8ABD;
+	border-left: 2px solid #FB8ABD;
+}
+.content span a{
+	font-size: 16px;
+	cursor: pointer;
+}
+.content span a:hover{
+	text-decoration: none;
+	color: #27C0C9;
+}
+.content .title{
+	margin: 20px 0;
+	font-size: 40px;
+	font-weight: 700;
+	color: #FB8ABD;
+}
+.ifo{
+	font-size: 24px;
+	font-weight: 700;
+}
+.content .img img{
+	margin: 40px 0 50px 0;
+}
+.content .img{
+	margin: 0 auto;
+	border-bottom: 2px solid #FB8ABD;
+}
+.img_page {
+	margin-top: 50px;
+}
+.img_page>div{
+	margin-bottom: 40px;
+}
+.img_page>div>a>img{
+	width: 100%;
+	border: 1px solid #ececec
+}
+.img_page div .m_link a{
+    font-size: 21px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.img_page div .m_link a:hover{
+	color: #27C0C9;
+	text-decoration: none;
+}
+.img_page div .m_link img{
+	width: 20px;
+	top: -3px;
+	position: relative;
+}
+ .cafemain_business .thumbnail{
+	border: none;
+	padding: 0px 0px;
+}
+ .cafemain_bottom{
+	overflow: hidden;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fca7cd;
+	margin-bottom: 40px;
+}
+.cafemain_bottom>img{
+	width: 100%;
+	max-width: 100%;
+}
+.cafemain_bottom .bottom_main{	
+	background: #fee3ef;
+	width: 33.3333333%;
+	float: left;
+	height: 98px;
+	overflow: hidden;
+}
+.cafemain_bottom .bottom_main>img{
+	margin: 20px 0px;
+}
+.cafemain_bottom .bottom_main .bottom_imgbox{
+	display: inline-block;
+	margin-top: 30px;
+}
+.cafemain_bottom .bottom_main .bottom_imgbox img:nth-of-type(1){
+	margin: auto 10px;
+}
+.cafemain_bottom .bottom_main .bottom_imgbox img:nth-of-type(2){
+	margin-right: 10px;
+}
+
+@media (min-width: 760px){
+	.content .ifo{
+	    padding: 0px 320px;
+	}
+	.content .img{
+		width: 532px;
+	}
+}
+@media (max-width: 760px){
+	.img_page>div{
+		padding: 0;
+	}
+}
+
+@media(max-width:1200px){
+	.container{
+		width: 100%;
+	}
+}
+@media (min-width: 1200px){
+	.container{
+		width: 1172px;
+		padding: 0;
+	}
+}
+
+
+
