@@ -1,1 +1,1 @@
-# HelloKitty
+# Sanrio
